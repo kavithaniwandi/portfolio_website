@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a955ccf3bd.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo" alt="Logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>    
+            <div class="header-text">
+                <p>Undergraduate IT Student</p>
+                <h1>Hi, I'm <span>Kavitha</span><br>Ekanayake</h1>
+            </div>
+        </div>
+    </div>
+    <!-- About section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/me.jpeg" alt="Profile Picture">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I’m Kavitha Niwandi Ekanayake. I’m a student passionate about technology and building things like websites and mobile apps.
+                        I enjoy creating simple and useful solutions that make life easier.
+                        I’ve learned different programming languages and tools, and I’m always working to improve my skills.
+                        I like trying new ideas, solving problems, and learning something new every day.
+                        Take a look at my work, and feel free to reach out.
+                        I’m excited to share my journey and work on great projects!</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+
+                    <!-- Tab contents -->
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>Designing Web/App interfaces</li>
+                            <li><span>Web Development</span><br>Web App Development</li>
+                            <li><span>App Development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2022-Current</span><br>UI-UX designer at FIVERR.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2022-Current</span><br>BSc(Hons) in Information Technology Specialization
+                                in Information Technology at SLIIT</li>
+                            <li><span>2020-2021</span><br>Information Technology, Esoft Campus</li>
+                            <li><span>2011-2019</span><br>Central College, Anuradhapura</li>
+                            <li><span>2006-2010</span><br>Swarnapali Girls College, Anuradhapura</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Services--->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>qwwerthy fgtrhjnbhiuhb rtgrhbovh fertijthbjbn,
+                        wertgrhkbgiovjcioj, gbghnkyijerdjc, hnhlyrtopewjiosd, dfvbhefdv
+                        wrgv </p>
+                    <a href="#">Learn More</a>    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>qwwerthy fgtrhjnbhiuhb rtgrhbovh fertijthbjbn,
+                        wertgrhkbgiovjcioj, gbghnkyijerdjc, hnhlyrtopewjiosd, dfvbhefdv
+                        wrgv </p>
+                    <a href="#">Learn More</a>    
+                </div>
+                <div>
+                    <i class="fa-solid fa-hashtag"></i>
+                    <h2>App Design</h2>
+                    <p>qwwerthy fgtrhjnbhiuhb rtgrhbovh fertijthbjbn,
+                        wertgrhkbgiovjcioj, gbghnkyijerdjc, hnhlyrtopewjiosd, dfvbhefdv
+                        wrgv </p>
+                    <a href="#">Learn More</a>    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Portfolio-->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.jpg">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>the app conect you to the talented people arount
+                        the world,Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.jpg">
+                <div class="layer">
+                    <h3>Music App</h3>
+                    <p>the app conect you to the talented people arount
+                        the world,Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Online Shopping App</h3>
+                    <p>the app conect you to the talented people arount
+                        the world,Download it from play store.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See More</a>
+    </div>
+</div>
+
+<!--Contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-envelope"></i> kavithaekanayaka@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 0705908215</p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/kavitha_niwandi_/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/kavithaekanayaka/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name = "submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright @ KavithaEkanayake.</p>
+    </div>
+</div>
+
+    <script>
+        // Select tab links and tab content elements
+        const tablinks = document.getElementsByClassName("tab-links");
+        const tabcontents = document.getElementsByClassName("tab-contents");
+
+
+        function opentab(tabname) {
+            for (let tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (let tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+
+            document.querySelector(`[onclick="opentab('${tabname}')"]`).classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        
+            localStorage.setItem('activeTab', tabname);
+        }
+
+      
+        window.onload = function() {
+            const activeTab = localStorage.getItem('activeTab');
+            if (activeTab) {
+                opentab(activeTab);
+            } else {
+                opentab('skills');
+            }
+        }  
+
+    </script>
+    <script>
+
+var sidemenu = document.getElementById("sidemenu");
+
+function openmenu(){
+    sidemenu.style.right = "0";
+}
+function closemenu(){
+    sidemenu.style.right = "-200px";
+}
+
+    </script>
+<script>
+    // Replace this URL with the correct deployment URL of your Google Apps Script
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyzFUHI7o2Q94ClEFL9P1gKrGndYnh2usXH-9U-227Ma4dkINigncdU222dCCQ7lV1r/exec';
+    const form = document.forms['submit-to-google-sheet'];
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+
+        // Optional: Add a loading message or spinner
+        const submitButton = form.querySelector('button[type="submit"]');
+        const originalText = submitButton.textContent;
+        submitButton.textContent = "Submitting...";
+        submitButton.disabled = true;
+
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then((response) => {
+                if (response.ok) {
+                    alert('Success! Your message has been sent.');
+                    form.reset(); // Reset the form
+                } else {
+                    alert('Something went wrong. Please try again.');
+                }
+            })
+            .catch((error) => {
+                alert('Error! Please check your connection and try again.');
+                console.error('Error!', error.message);
+            })
+            .finally(() => {
+                submitButton.textContent = originalText; // Restore button text
+                submitButton.disabled = false; // Enable the button
+            });
+    });
+</script>
+
+</body>
+</html>
